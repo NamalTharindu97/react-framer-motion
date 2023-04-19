@@ -1,10 +1,18 @@
-import React from "react";
 import "./animation.css";
+import { motion } from "framer-motion";
 
 export default function Animation() {
   return (
     <div className="outer">
-      <div className="squre"> </div>;
+      {/* popup animation */}
+      <motion.div
+        className="squre"
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
+        transition={{ duration: 0.5 }}
+      >
+        {" "}
+      </motion.div>
     </div>
   );
 }
