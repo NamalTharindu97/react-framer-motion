@@ -7,6 +7,7 @@ body {
   height: 50px;
   border-radius: 5px;
   background-color: aliceblue;
+  margin: 10px;
 }
 
 .outer {
@@ -14,4 +15,5 @@ body {
   align-items: center;
   justify-content: center; /* Centers items horizontally */
   height: 100vh; /* Sets outer container height to full viewport height */
+  flex-direction: column;
 }
