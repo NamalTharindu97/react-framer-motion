@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+
+.squre {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.outer {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers items horizontally */
+  height: 100vh; /* Sets outer container height to full viewport height */
+}
